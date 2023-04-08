@@ -2,6 +2,8 @@
 
 This project focuses on the analysis and classification of tweets to determine if they are related to disasters or not. The primary goal is to build a machine learning model that can effectively identify disaster-related tweets using natural language processing techniques.
 
+The task belongs to a Kaggle contest called "Real or Not? NLP with Disaster Tweets". The challenge is to create a program that can accurately determine whether a tweet is about a real disaster or not.
+
 ## Introduction
 
 The purpose of this project is to develop a model that can accurately classify tweets as disaster-related or not, using a dataset containing disaster and non-disaster tweets. Natural language processing techniques are applied throughout the analysis.
