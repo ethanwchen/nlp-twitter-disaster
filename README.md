@@ -2,18 +2,6 @@
 
 This project focuses on the analysis and classification of tweets to determine if they are related to disasters or not. The primary goal is to build a machine learning model that can effectively identify disaster-related tweets using natural language processing techniques.
 
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Dataset](#dataset)
-3. [Data Visualization](#data-visualization)
-4. [Data Preprocessing](#data-preprocessing)
-5. [Feature Engineering](#feature-engineering)
-6. [Model Training](#model-training)
-7. [Model Evaluation](#model-evaluation)
-8. [Feature Selection](#feature-selection)
-9. [Conclusion](#conclusion)
-
 ## Introduction
 
 The purpose of this project is to develop a model that can accurately classify tweets as disaster-related or not, using a dataset containing disaster and non-disaster tweets. Natural language processing techniques are applied throughout the analysis.
