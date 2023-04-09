@@ -1,4 +1,4 @@
-# Disaster Tweet Analysis
+# Disaster Tweet Analysis 🌋
 
 This project focuses on the analysis and classification of tweets to determine if they are related to disasters or not. The primary goal is to build a machine learning model that can effectively identify disaster-related tweets using natural language processing techniques.
 
