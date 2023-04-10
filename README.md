@@ -1,13 +1,12 @@
 # Disaster Tweet Analysis 🌋
 
-*Utilizing NLP to classify disaster tweets*
+**Utilizing NLP to classify disaster tweets**
+
+![disaster](https://user-images.githubusercontent.com/96222805/231004274-0dbdbbc6-ce7f-4135-97f7-3210133d03e1.jpeg)
 
 This project focuses on the analysis and classification of tweets to determine if they are related to disasters or not. The primary goal is to build a machine learning model that can effectively identify disaster-related tweets using natural language processing techniques.
 
 The task belongs to a Kaggle contest called "Real or Not? NLP with Disaster Tweets". The challenge is to create a program that can accurately determine whether a tweet is about a real disaster or not.
-
-![disaster](https://user-images.githubusercontent.com/96222805/231004274-0dbdbbc6-ce7f-4135-97f7-3210133d03e1.jpeg)
-
 
 ## Introduction
 
