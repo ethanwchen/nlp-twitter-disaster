@@ -69,12 +69,6 @@ The following Python libraries were used for this project:
 - nltk
 - wordcloud
 
-You can install these libraries using pip to try running the notebook on your own.:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn nltk wordcloud
-```
-
 #### Data available here:
 
 https://www.kaggle.com/c/nlp-getting-started/data
