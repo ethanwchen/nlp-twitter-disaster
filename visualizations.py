@@ -75,4 +75,26 @@ def plot_top_words_disaster_and_nondisaster(train):
     freq_d = FreqDist(w for w in word_tokenize(' '.join(train.loc[train.target==1, 'clean_text']).lower()) if
     (w not in stopwords) & (w.isalpha()))
 
-    df_d = pd.DataFrame.from_dict(freq_d, orient='index', columns=['
+    df_d = pd.DataFrame.from_dict(freq_d, orient='index', columns=['count'])
+    
+ top20_d = df_d.sort_values('count',ascending=False).head(20)
+
+sns.barplot(x='count', y=top20_d.index, data=top20_d, color='c')
+
+plt.title('Top words in disaster tweets')
+
+plt.subplot(122)
+
+freq_nd = FreqDist(w for w in word_tokenize(' '.join(train.loc[train.target==0, 'clean_text']).lower()) if
+(w not in stopwords) & (w.isalpha()))
+
+df_nd = pd.DataFrame.from_dict(freq_nd, orient='index', columns=['count'])
+
+top20_nd = df_nd.sort_values('count',ascending=False).head(20)
+
+sns.barplot(x='count', y=top20_nd.index, data=top20_nd, color='y')
+
+plt.title('Top words in non-disaster tweets')
+
+plt.show()
+
