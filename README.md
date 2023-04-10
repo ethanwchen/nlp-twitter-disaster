@@ -73,6 +73,7 @@ You can install these libraries using pip to try running the notebook on your ow
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn nltk wordcloud
+```
 
 #### Data available here:
 
